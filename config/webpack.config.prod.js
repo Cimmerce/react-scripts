@@ -291,6 +291,7 @@ module.exports = loaders => ({
         // Pending further investigation:
         // https://github.com/mishoo/UglifyJS2/issues/2011
         comparisons: false,
+        reduce_vars: false,
       },
       mangle: {
         safari10: true,
